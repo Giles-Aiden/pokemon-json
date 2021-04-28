@@ -7,7 +7,6 @@
           <tr>
             <td><h2>Charmander</h2></td>
           </tr>
-          <hr />
           <tr>
             <td><img src="@/assets/charmander.jpg" /></td>
           </tr>
@@ -25,7 +24,6 @@
           <tr>
             <td><h2>Charmeleon</h2></td>
           </tr>
-          <hr />
           <tr>
             <td><img src="@/assets/charmeleon.jpg" /></td>
           </tr>
@@ -43,7 +41,6 @@
           <tr>
             <td><h2>Charizrd</h2></td>
           </tr>
-          <hr />
           <tr>
             <td><img src="@/assets/charizard.jpg" /></td>
           </tr>
@@ -75,15 +72,15 @@ body {
   div.pokemonEntry {
     width: 20%;
     height: 30rem;
-    border: 0.1rem black solid;
+    border: #fde166 0.8rem solid;
     border-radius: 1rem;
-    background-color: white;
+    background-color: #f06345;
     display: flex;
     align-content: flex-start;
     table {
       width: 100%;
       button {
-        background-color: white;
+        background-color: #e05234;
         color: black;
         border-radius: 1rem;
         box-shadow: black 0.25rem 0.25rem;

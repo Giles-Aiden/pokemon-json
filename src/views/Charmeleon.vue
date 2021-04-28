@@ -19,54 +19,53 @@ export default {
             name: "blaze",
           },
           {
-            name: "solar - power",
+            name: "solar-power",
           },
         ],
-        base_experience: 62,
-        height: 6,
-        weight: 85,
-        id: 4,
+        base_experience: 142,
+        height: 11,
+        id: 5,
         is_default: true,
-        name: "charmander",
-        order: 5,
+        name: "charmeleon",
+        order: 6,
         stats: [
           {
-            base_stat: 39,
+            base_stat: 58,
             effort: 0,
             stat: {
               name: "hp",
             },
           },
           {
-            base_stat: 52,
+            base_stat: 64,
             effort: 0,
             stat: {
               name: "attack",
             },
           },
           {
-            base_stat: 43,
+            base_stat: 58,
             effort: 0,
             stat: {
               name: "defense",
             },
           },
           {
-            base_stat: 60,
-            effort: 0,
+            base_stat: 80,
+            effort: 1,
             stat: {
               name: "special-attack",
             },
           },
           {
-            base_stat: 50,
+            base_stat: 65,
             effort: 0,
             stat: {
               name: "special-defense",
             },
           },
           {
-            base_stat: 65,
+            base_stat: 80,
             effort: 1,
             stat: {
               name: "speed",
@@ -81,6 +80,7 @@ export default {
             },
           },
         ],
+        weight: 190,
       },
     };
   },
