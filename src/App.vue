@@ -11,7 +11,7 @@
 </template>
 
 <style lang="scss">
-@import "@/scss/_color.scss";
+@import "@/assets/scss/_colors.scss";
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
