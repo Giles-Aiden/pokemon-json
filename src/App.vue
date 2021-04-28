@@ -11,7 +11,7 @@
 </template>
 
 <style lang="scss">
-@import "@/scss/_colors.scss";
+@import "@/assets/scss/_colors.scss";
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -19,7 +19,6 @@
   text-align: center;
   color: #2c3e50;
 }
-$color-a;
 #nav {
   padding: 30px;
 
