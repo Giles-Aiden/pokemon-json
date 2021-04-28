@@ -2,8 +2,8 @@
   <div id="app">
     <transition
       mode="out-in"
-      enter-active-class="animate__animated animate__fadeInRight"
-      leave-active-class="animate__animated animate__fadeOutLeft"
+      enter-active-class="animate__animated animate__backInRight"
+      leave-active-class="animate__animated animate__backOutLeft"
     >
       <router-view />
     </transition>
