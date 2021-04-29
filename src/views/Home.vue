@@ -7,11 +7,16 @@
           <tr>
             <td><h2>Charmander</h2></td>
           </tr>
+          <hr />
           <tr>
             <td><img src="@/assets/charmander.jpg" /></td>
           </tr>
           <tr>
-            <td><button>Go to entry</button></td>
+            <td>
+              <router-link to="/charmander"
+                ><button>Go to entry</button></router-link
+              >
+            </td>
           </tr>
         </table>
       </div>
@@ -20,11 +25,16 @@
           <tr>
             <td><h2>Charmeleon</h2></td>
           </tr>
+          <hr />
           <tr>
             <td><img src="@/assets/charmeleon.jpg" /></td>
           </tr>
           <tr>
-            <td><button>Go to entry</button></td>
+            <td>
+              <router-link to="/charmeleon"
+                ><button>Go to entry</button></router-link
+              >
+            </td>
           </tr>
         </table>
       </div>
@@ -33,11 +43,16 @@
           <tr>
             <td><h2>Charizrd</h2></td>
           </tr>
+          <hr />
           <tr>
             <td><img src="@/assets/charizard.jpg" /></td>
           </tr>
           <tr>
-            <td><button>Go to entry</button></td>
+            <td>
+              <router-link to="/charizrd"
+                ><button>Go to entry</button></router-link
+              >
+            </td>
           </tr>
         </table>
       </div>
@@ -59,6 +74,7 @@ body {
   width: 100%;
   div.pokemonEntry {
     width: 20%;
+    height: 30rem;
     border: 0.1rem black solid;
     border-radius: 1rem;
     background-color: white;
@@ -66,9 +82,24 @@ body {
     align-content: flex-start;
     table {
       width: 100%;
+      button {
+        background-color: white;
+        color: black;
+        border-radius: 1rem;
+        box-shadow: black 0.25rem 0.25rem;
+        width: 10rem;
+        height: 3rem;
+      }
+    }
+    hr {
+      padding: 0;
+      margin: 0;
+      background-color: black;
+      opacity: 1;
     }
     img {
-      width: 100%;
+      width: auto;
+      height: 20rem;
     }
   }
 }
