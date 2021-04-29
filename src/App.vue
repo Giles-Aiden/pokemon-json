@@ -1,6 +1,12 @@
 <template>
   <div id="app">
-    <router-view />
+    <transition
+      mode="out-in"
+      enter-active-class="animate__animated animate__backInRight"
+      leave-active-class="animate__animated animate__backOutLeft"
+    >
+      <router-view />
+    </transition>
     <!--     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/charmander">Charmander</router-link> |

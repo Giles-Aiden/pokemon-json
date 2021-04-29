@@ -23,13 +23,13 @@ const routes = [
     path: "/charmeleon",
     name: "Charmeleon",
     component: () =>
-      import(/* webpackChunkName: "charmander" */ "../views/Charmander.vue"),
+      import(/* webpackChunkName: "charmander" */ "../views/Charmeleon.vue"),
   },
   {
     path: "/charizrd",
     name: "Charizrd",
     component: () =>
-      import(/* webpackChunkName: "charmander" */ "../views/Charmander.vue"),
+      import(/* webpackChunkName: "charmander" */ "../views/Charizrd.vue"),
   },
 ];
 
